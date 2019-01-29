@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:padding="16dp">
+	<SeekBar
+			android:id="@+id/sb"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:max="100"
+			android:progress="0"
+			android:progressDrawable="@drawable/seekbar_bg"
+			android:thumbOffset="0dp"
+			/>
+	<TextView
+			android:id="@+id/tv"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:layout_alignTop="@id/sb"
+			android:layout_alignBottom="@id/sb"
+			android:gravity="center"
+			android:text="请按住滑块，拖动到最后"
+			android:textColor="#888888"
+			android:textSize="14dp"/>
+
+	<cardiochina.com.customapp.seekbar.DouYuView
+			android:id="@+id/dyv_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/tv"
+			android:src="@mipmap/banner"
+			android:layout_marginTop="20dp"
+			app:unitWidth="80dp"
+			app:unitHeight="80dp"
+			app:unitShowSrc="@mipmap/icon_pingjia_n"
+			app:unitShadeSrc="@mipmap/icon_pingjia_s"
+			app:needRotate="false"/>
+	<SeekBar
+			android:id="@+id/sb_douyu"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:max="100"
+			android:layout_below="@id/dyv_view"/>
+</RelativeLayout>

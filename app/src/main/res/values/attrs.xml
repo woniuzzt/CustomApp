@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GGKView">
+        <attr name="bg" format="reference"/>
+		<attr name="text" format="string"/>
+		<attr name="textSize" format="dimension"/>
+		<attr name="textColor" format="color"/>
+    </declare-styleable>
+
+	<declare-styleable name="DouYuView">
+		<!--滑块的高度-->
+		<attr name="unitHeight" format="dimension" />
+		<!--滑块的宽度-->
+		<attr name="unitWidth" format="dimension" />
+		<!--滑块占图片高度的比例-->
+		<attr name="unitHeightScale" format="integer" />
+		<!--滑块占图片宽度的比例-->
+		<attr name="unitWidthScale" format="integer" />
+		<!--滑块边框的图片资源-->
+		<attr name="unitShadeSrc" format="reference" />
+		<!--阴影部分的图片资源-->
+		<attr name="unitShowSrc" format="reference" />
+		<!--是否需要旋转-->
+		<attr name="needRotate" format="boolean" />
+		<!--验证时的误差值-->
+		<attr name="deviate" format="integer" />
+	</declare-styleable>
+
+	<!--<declare-styleable name="IncAndDecEditText">-->
+		<!--<attr name="textMarginLeft" format="dimension"/>-->
+		<!--<attr name="textMarginRight" format="dimension"/>-->
+		<!--<attr name="defaultCount" format="integer"/>-->
+		<!--<attr name="changeCount" format="integer"/>-->
+		<!--<attr name="leftBitmap" format="reference"/>-->
+		<!--<attr name="rightBitmap" format="reference"></attr>-->
+		<!--<attr name="lessDefault" format="boolean"/>-->
+		<!--<attr name="edittextColor" format="color"/>-->
+		<!--<attr name="textOutLineColor" format="color"/>-->
+		<!--<attr name="edittextSize" format="dimension"/>-->
+	<!--</declare-styleable>-->
+
+	<declare-styleable name="IncAndDecText">
+		<attr name="defalutCount" format="integer"/>
+		<attr name="changeCount" format="integer"/>
+		<attr name="btnWidthAndHeight" format="dimension"/>
+		<attr name="edittextHeight" format="dimension"/>
+		<attr name="editTextSize" format="dimension"/>
+		<attr name="btnPaddingLeftAndRight" format="dimension"/>
+		<attr name="isLessDefaultCount" format="boolean"/>
+	</declare-styleable>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+	<cardiochina.com.customapp.customedittext.IncAndDecText
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			app:defalutCount="20"
+			app:changeCount="5"
+			app:btnWidthAndHeight="25dp"
+			app:edittextHeight="30dp"
+			app:editTextSize="5sp"
+			app:btnPaddingLeftAndRight="10dp"
+			app:isLessDefaultCount="true"/>
+</RelativeLayout>
